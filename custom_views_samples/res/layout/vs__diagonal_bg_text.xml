@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/vs__white"
+        android:layout_margin="1px"
+        android:orientation="vertical">
+
+    <blak.android.views.DiagonalBgTextView
+            android:id="@+id/gc__scorecard_table_skins_triangle"
+            android:layout_width="22sp"
+            android:layout_height="22sp"
+            android:paddingLeft="11sp"
+            android:paddingBottom="11sp"
+            android:layout_marginLeft="-11sp"
+            android:layout_marginBottom="-11sp"
+            android:layout_gravity="right"
+            android:textSize="10sp"
+            android:textColor="@color/vs__yellow"
+            android:background="@drawable/vs__blue_bg"
+            android:text="12"/>
+
+    <LinearLayout
+            android:id="@+id/gc__scorecard_table_skins_symbol"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:gravity="center"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/vs__white">
+
+        <TextView
+                android:id="@+id/gc__scorecard_table_skins_strokes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/vs__black"
+                android:textSize="16sp"
+                android:text="3"/>
+    </LinearLayout>
+
+</LinearLayout>
+

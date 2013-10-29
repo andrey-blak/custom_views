@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:background="@color/vs__white"
+        >
+
+    <blak.android.views.VerticalTextView
+            android:id="@+id/gc__scorecard_table_player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/vs__gray"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="John"
+            />
+</FrameLayout>

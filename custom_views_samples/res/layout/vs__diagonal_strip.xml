@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/vs__green"/>
+
+        <FrameLayout
+                android:id="@+id/estate_item_sold_strip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true">
+
+            <blak.android.views.DiagonalStrip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/vs__black"
+                    android:textSize="24sp"
+                    android:background="@drawable/vs__orange_bg"
+                    xmlns:custom="http://schemas.android.com/apk/res/blak.android.views_samples"
+                    custom:angle="45"
+                    android:text="Sold"
+                    />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
